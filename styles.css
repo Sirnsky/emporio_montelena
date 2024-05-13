@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5; /* Espaçamento entre linhas */
+    background-color: #f5deb3; /* Marrom claro */
+}
+
+header {
+    background-color: #8B4513; /* Marrom terra */
+    color: white; /* Cor do texto branco para melhor contraste */
+    padding: 20px; /* Adiciona um espaçamento interno para melhor legibilidade */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+main {
+    display: flex;
+    flex-direction: column; /* Definindo a direção do flex container como coluna */
+    align-items: center; /* Centralizando os itens horizontalmente */
+    padding: 20px;
+}
+
+section {
+    width: 100%; /* Definindo a largura total */
+    margin-bottom: 20px;
+    text-align: center; /* Centralizando todo o conteúdo dentro da seção */
+}
+
+section h2 {
+    margin-top: 0; /* Removendo a margem superior do título */
+}
+
+section#products ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Removendo margem da lista */
+}
+
+section#products li {
+    margin-bottom: 10px; /* Adicionando margem entre os itens */
+}
+
+}
+
+#advantages h2 {
+    margin-bottom: 3em; /* Espaçamento após o título */
+}
+
+#advantages p {
+    max-width: 70%;
+    margin: 0 auto; /* Centralizando o parágrafo horizontalmente */
+    line-height: 2.0; /* Espaçamento entre linhas */
+}
+
+#contact form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block; /* Mostrando cada label em uma linha */
+    margin-bottom: 5px;
+    text-align: left; /* Alinhando texto à esquerda */
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px; /* Aumentando o padding */
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Incluindo padding e border no width */
+}
+
+#contact textarea {
+    height: 150px; /* Definindo uma altura maior para a textarea */
+}
+
+#contact button {
+    width: 100%;
+    padding: 10px 15px; /* Aumentando o padding */
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background-color: #45a049;
+}
+
+#promo {
+    width: 250px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+#promo h2 {
+    margin-top: 0;
+}
+
+#promo p {
+    margin-bottom: 10px;
+}
+
+#promo form {
+    display: flex;
+    flex-direction: column;
+}
+
+#promo label {
+    margin-bottom: 5px;
+}
+
+#promo input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#promo button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#promo button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #8B4513; /* Cor marrom */
+    padding: 20px;
+
+    /* Estilos para Flexbox */
+    display: flex; /* Ativa o modelo de layout flexível */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.redes-sociais {
+    display: flex; /* Ativa o modelo de layout flexível */
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+.frase {
+    color: #F5F5DC; /* Cor bege */
+    margin-bottom: 10px; /* Espaçamento abaixo da frase */
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color: #ffa500; /* Cor padrão para os links */
+    margin: 5px; /* Espaçamento entre os links */
+}
